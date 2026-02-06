@@ -85,14 +85,14 @@ export default function InstagramReel({ url }: Props) {
     };
 
     return (
-        <div className="w-full flex justify-center">
+        <div className=" flex justify-center">
             {showFallback ? (
-                <div className="w-full max-w-[540px]">
+                <div className="w-full max-w-135">
                     <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm">
                         {/* Header */}
                         <div className="flex items-center justify-between p-4 border-b border-gray-200">
                             <div className="flex items-center">
-                                <div className="w-8 h-8 bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 rounded-full flex items-center justify-center">
+                                <div className="w-8 h-8 bg-linear-to-br from-pink-500 via-red-500 to-yellow-500 rounded-full flex items-center justify-center">
                                     <Instagram size={16} className="text-white" />
                                 </div>
                                 <div className="ml-3">
@@ -106,7 +106,7 @@ export default function InstagramReel({ url }: Props) {
                         </div>
 
                         {/* Video Placeholder */}
-                        <div className="relative aspect-[9/16] bg-gradient-to-br from-sky-50 to-blue-100">
+                        <div className="relative aspect-9/16 bg-linear-to-br from-sky-50 to-blue-100">
                             <div className="absolute inset-0 flex flex-col items-center justify-center p-4">
                                 <div className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center mb-4 shadow-lg">
                                     <Instagram size={24} className="text-pink-500" />
@@ -118,7 +118,7 @@ export default function InstagramReel({ url }: Props) {
                                     href={url}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="mt-4 px-4 py-2 bg-gradient-to-r from-pink-500 to-orange-500 text-white rounded-lg text-sm font-medium hover:opacity-90 transition-opacity"
+                                    className="mt-4 px-4 py-2 bg-linear-to-r from-pink-500 to-orange-500 text-white rounded-lg text-sm font-medium hover:opacity-90 transition-opacity"
                                 >
                                     Open Reel
                                 </a>
@@ -167,7 +167,7 @@ export default function InstagramReel({ url }: Props) {
             ) : (
                 <>
                     {/* Instagram Embed */}
-                    <div className="w-full max-w-[540px]">
+                    <div className="w-full max-w-135">
                         <blockquote
                             className="instagram-media"
                             data-instgrm-permalink={url}
@@ -192,7 +192,7 @@ export default function InstagramReel({ url }: Props) {
                                 borderBottom: '1px solid #e5e7eb'
                             }}>
                                 <div className="flex items-center justify-center space-x-2">
-                                    <div className="w-6 h-6 bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 rounded-full flex items-center justify-center">
+                                    <div className="w-6 h-6 bg-linear-to-br from-pink-500 via-red-500 to-yellow-500 rounded-full flex items-center justify-center">
                                         <Instagram size={12} className="text-white" />
                                     </div>
                                     <span className="text-sm text-gray-600">Loading Instagram Reel...</span>
@@ -203,26 +203,8 @@ export default function InstagramReel({ url }: Props) {
                 </>
             )}
 
-            {/* Add global styles for Instagram embed */}
-            <style jsx global>{`
-                .instagram-media {
-                    min-width: 326px !important;
-                    max-width: 540px !important;
-                }
-                
-                /* Ensure Instagram iframe has proper styling */
-                iframe.instagram-media-rendered {
-                    border-radius: 12px !important;
-                    border: 1px solid #e5e7eb !important;
-                    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05) !important;
-                    margin: 0 auto !important;
-                }
-                
-                /* Style the Instagram play button */
-                .EmbeddedMedia iframe {
-                    border-radius: 12px !important;
-                }
-            `}</style>
+
+
         </div>
     );
 }

@@ -27,7 +27,6 @@ export default function Header() {
         { id: 4, label: 'Workshops', href: '/workshops' },
         { id: 5, label: 'Testimonials', href: '/testimonials' },
         { id: 6, label: 'Gallery', href: '/gallery' },
-        { id: 7, label: 'Contact', href: '/contact' },
     ];
 
     return (
@@ -112,10 +111,7 @@ export default function Header() {
 
                     {/* CTA Button */}
                     <div className="hidden lg:flex items-center space-x-4">
-                        <div className="flex items-center space-x-2 text-gray-600">
-                            <Phone size={16} />
-                            <span className="text-sm">+91 98230 64999</span>
-                        </div>
+
                         <Link
                             href="/contact"
                             className="px-6 py-2 bg-sky-600 text-white rounded-lg font-medium hover:bg-sky-700 transition-colors"
@@ -169,10 +165,7 @@ export default function Header() {
                                 </div>
                             ))}
                             <div className="pt-4 px-4 space-y-3">
-                                <div className="flex items-center text-gray-600">
-                                    <Phone size={16} className="mr-2" />
-                                    <span>+91 98230 64999</span>
-                                </div>
+
                                 <Link
                                     href="/contact"
                                     className="block w-full py-3 bg-sky-600 text-white rounded-lg font-medium text-center"

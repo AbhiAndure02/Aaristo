@@ -55,3 +55,24 @@ body {
 * {
   transition: background-color 0.2s ease, border-color 0.2s ease;
 }
+
+/* Instagram embed global styles */
+
+.instagram-media {
+  min-width: 326px !important;
+  max-width: 540px !important;
+  width: 100% !important;
+}
+
+/* Instagram iframe styling */
+iframe.instagram-media-rendered {
+  border-radius: 12px !important;
+  border: 1px solid #e5e7eb !important;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05) !important;
+  margin: 0 auto !important;
+}
+
+/* Embedded media wrapper */
+.EmbeddedMedia iframe {
+  border-radius: 12px !important;
+}
