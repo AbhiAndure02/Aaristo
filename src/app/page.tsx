@@ -4,90 +4,17 @@ import { useState } from 'react';
 import { ArrowRight, Heart, Brain, User, Sparkles, Target, CheckCircle, Play, Quote, Calendar, Users } from 'lucide-react';
 import Link from 'next/link';
 import InstagramReel from '@/components/InstagramReel';
+import Hero from "@/components/home/Hero";
 
 export default function HomePage() {
   const [activeTab, setActiveTab] = useState<'mind' | 'body' | 'soul'>('mind');
 
-  const testimonials = [
-    {
-      id: 1,
-      name: "Priya Sharma",
-      role: "Corporate Executive",
-      content: "Aaristo transformed my mindset completely. I've never felt more in control of my life.",
-      avatar: "PS"
-    },
-    {
-      id: 2,
-      name: "Rahul Mehta",
-      role: "Entrepreneur",
-      content: "The body presentation workshop changed how people perceive me in business meetings.",
-      avatar: "RM"
-    },
-    {
-      id: 3,
-      name: "Anjali Patel",
-      role: "Homemaker",
-      content: "Past life regression helped me understand and overcome deep-seated fears.",
-      avatar: "AP"
-    }
-  ];
 
-  const workshops = [
-    {
-      id: 1,
-      title: "Mindset Mastery",
-      date: "15 Jan 2024",
-      duration: "2 Days",
-      price: "₹9,999"
-    },
-    {
-      id: 2,
-      title: "Confident You",
-      date: "22 Jan 2024",
-      duration: "1 Day",
-      price: "₹5,999"
-    },
-    {
-      id: 3,
-      title: "Soul Connection",
-      date: "29 Jan 2024",
-      duration: "3 Days",
-      price: "₹14,999"
-    }
-  ];
 
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-sky-50 to-white">
-        <div className="container mx-auto px-4 py-20 md:py-28">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center bg-sky-100 text-sky-700 px-4 py-2 rounded-full mb-6">
-              <Sparkles size={16} className="mr-2" />
-              <span className="font-medium">Transform Your Life</span>
-            </div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
-              Live the Life <span className="text-sky-600 block">You Want</span>
-            </h1>
-            <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-              We help people transform into their desired life and achieve the desired results through mind, body, and soul balance.
-              <span className="block mt-2 font-semibold text-sky-700">Is this possible? Yes of course! It is.</span>
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                href="/contact"
-                className="inline-flex items-center justify-center px-8 py-3 bg-sky-600 text-white rounded-lg font-medium hover:bg-sky-700 transition-colors"
-              >
-                Start Your Journey <ArrowRight className="ml-2" size={20} />
-              </Link>
-              <button className="inline-flex items-center justify-center px-8 py-3 border border-gray-300 text-gray-700 rounded-lg font-medium hover:border-sky-300 hover:bg-sky-50 transition-colors">
-                <Play className="mr-2" size={20} /> Watch Intro
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-
+    <Hero />
       {/* Philosophy Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
