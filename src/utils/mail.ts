@@ -111,7 +111,7 @@ This message was sent from the contact form on aaristo.com
 
         const mailOptions = {
             from: `"Aaristo Website" <${process.env.SMTP_MAIL}>`,
-            to: 'monica@aaristo.com',
+            to: 'mvb.aaristo@gmail.com',
             subject: `New Contact Form: ${formData.name} - ${serviceLabel}`,
             text: text,
             html: html,
@@ -175,7 +175,7 @@ export const sendConfirmationToUser = async (userEmail: string, userName: string
                     <div style="margin: 20px 0;">
                         <p style="margin: 5px 0;">B4, Emirates Hills, Somatne, Talegaon Dabhade, Mawal</p>
                         <p style="margin: 5px 0;">Old Mumbai Pune Highway, Pune - 410506</p>
-                        <p style="margin: 5px 0;">Email: <a href="mailto:monica@aaristo.com" style="color: #0ea5e9; text-decoration: none;">monica@aaristo.com</a></p>
+                        <p style="margin: 5px 0;">Email: <a href="mailto:mvb.aaristo@gmail.com" style="color: #0ea5e9; text-decoration: none;">mvb.aaristo@gmail.com</a></p>
                         <p style="margin: 5px 0;">Phone: <a href="tel:+919823064999" style="color: #0ea5e9; text-decoration: none;">+91 98230 64999</a></p>
                     </div>
                     
@@ -238,7 +238,7 @@ export const testEmail = async () => {
 
         const mailOptions = {
             from: `"Aaristo Test" <${process.env.SMTP_MAIL}>`,
-            to: 'monica@aaristo.com',
+            to: 'mvb.aaristo@gmail.com',
             subject: 'Test Email - Aaristo Contact System',
             text: 'This is a test email from the Aaristo contact system.',
             html: '<p>This is a test email from the Aaristo contact system.</p>',
