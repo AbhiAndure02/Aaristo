@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Mail, Phone, MapPin, Clock, Calendar, CheckCircle, ArrowRight, Send, Instagram, Facebook, Linkedin, Heart, User, MessageSquare } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock, Calendar, CheckCircle, ArrowRight, Send, Instagram, Facebook, Linkedin, User, MessageSquare } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Contact() {
@@ -340,7 +340,7 @@ export default function Contact() {
                 </div>
             </section>
 
-            {/* Map Section */}
+            {/* Map Section - Real Google Map */}
             <section className="py-16 bg-gray-50">
                 <div className="container mx-auto px-4">
                     <div className="max-w-6xl mx-auto">
@@ -350,17 +350,33 @@ export default function Contact() {
                         </div>
 
                         <div className="bg-white rounded-2xl overflow-hidden border border-gray-200">
-                            <div className="aspect-[21/9] bg-gradient-to-br from-sky-100 to-blue-100 flex items-center justify-center">
-                                <div className="text-center p-8">
-                                    <MapPin className="text-sky-600 mx-auto mb-4" size={48} />
-                                    <h3 className="text-xl font-bold text-gray-900 mb-2">Emirates Hills, Pune</h3>
-                                    <p className="text-gray-600">
-                                        We're conveniently located on Old Mumbai Pune Highway
-                                    </p>
+                            {/* Map Container - Fixed height, no absolute positioning issues */}
+                            <div className="w-full h-[450px]">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.528760036553!2d73.80091747504983!3d18.55434466888512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf7b9c3e4c3b%3A0x1e3a9b7b9c3e4c3b!2sEmirates%20Hills%2C%20Somatne%2C%20Talegaon%20Dabhade%2C%20Maharashtra%20410506!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                                    width="100%"
+                                    height="100%"
+                                    style={{ border: 0 }}
+                                    allowFullScreen
+                                    loading="lazy"
+                                    referrerPolicy="no-referrer-when-downgrade"
+                                    className="w-full h-full"
+                                />
+                            </div>
+                            {/* Location Details Bar */}
+                            <div className="p-4 bg-white border-t border-gray-200">
+                                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+                                    <div className="flex items-start sm:items-center">
+                                        <MapPin className="text-sky-600 mr-2 flex-shrink-0 mt-1 sm:mt-0" size={20} />
+                                        <span className="text-gray-700">
+                                            B4, Emirates Hills, Somatne, Talegaon Dabhade, Pune - 410506
+                                        </span>
+                                    </div>
                                     <Link
                                         href="https://maps.google.com/?q=B4+Emirates+Hills+Somatne+Talegaon+Dabhade+Pune"
                                         target="_blank"
-                                        className="inline-flex items-center mt-4 text-sky-600 hover:text-sky-700 font-medium"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center text-sky-600 hover:text-sky-700 font-medium ml-7 sm:ml-0"
                                     >
                                         Open in Google Maps
                                         <ArrowRight size={16} className="ml-2" />
@@ -390,6 +406,7 @@ export default function Contact() {
                                 <Link
                                     href="https://calendly.com/aaristo/30min"
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                     className="inline-flex items-center justify-center px-8 py-3 bg-sky-600 text-white rounded-lg font-medium hover:bg-sky-700 transition-colors"
                                 >
                                     Book Discovery Call
