@@ -14,7 +14,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-    <Hero />
+      <Hero />
       {/* Philosophy Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
@@ -207,12 +207,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-
-
-
-
-      {/* CTA Section */}
 
     </div>
   );

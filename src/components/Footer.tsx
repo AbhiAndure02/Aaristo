@@ -2,24 +2,37 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Mail, Phone, MapPin, Heart } from 'lucide-react';
 
+interface Services {
+    name: string;
+    href: string;
+}
+
+interface CompanyLink {
+    name: string;
+    href: string;
+}
+interface LegalLink {
+    name: string;
+    href: string;
+}
 export default function Footer() {
     const currentYear = new Date().getFullYear();
 
-    const services = [
+    const services: Services[] = [
         { name: 'Image Management', href: '/services/image-management' },
         { name: 'Life Coaching', href: '/services/life-coaching' },
         { name: 'Past Life Regression', href: '/services/past-life-regression' },
         { name: 'Spiritual Upliftment', href: '/services/spiritual-upliftment' }
     ];
 
-    const companyLinks = [
+    const companyLinks: CompanyLink[] = [
         { name: 'About Us', href: '/about' },
         { name: 'Workshops', href: '/workshops' },
         { name: 'Testimonials', href: '/testimonials' },
         { name: 'Contact', href: '/contact' }
     ];
 
-    const legalLinks = [
+    const legalLinks: LegalLink[] = [
         { name: 'Privacy Policy', href: '/privacy-policy' },
         { name: 'Terms of Service', href: '/terms' },
         { name: 'Disclaimer', href: '/disclaimer' }
