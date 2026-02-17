@@ -89,7 +89,7 @@ const Workshops = () => {
 
     return (
         <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white py-12 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-7xl mx-auto">
+            <div className="max-w-7xl mx-auto mt-22">
                 {/* Hero Section */}
                 <div className="text-center mb-16">
                     <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-50 to-purple-50 px-4 py-2 rounded-full mb-6 border border-blue-100">

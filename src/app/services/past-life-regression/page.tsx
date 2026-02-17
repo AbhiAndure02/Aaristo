@@ -2,7 +2,7 @@ import React from 'react'
 
 const PastLifeRegression = () => {
     return (
-        <div>PastLifeRegression</div>
+        <div className='mt-28'>PastLifeRegression</div>
     )
 }
 

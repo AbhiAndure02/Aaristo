@@ -7,22 +7,20 @@ function Hero() {
     return (
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
 
-            {/* Background Image */}
+            {/* Background Video */}
             <video
                 src="/bg.mp4"
-
                 autoPlay
                 loop
                 muted
                 className="absolute inset-0 w-full h-full object-cover opacity-90"
-
             />
 
             {/* Dark Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
 
-            {/* Content */}
-            <div className="relative z-10 container mx-auto px-4 pt-28 pb-20 text-center text-white">
+            {/* Content — no top padding/margin needed; the fixed header overlays from above */}
+            <div className="relative z-10 container mx-auto px-4 py-20 text-center text-white">
                 <div className="max-w-4xl mx-auto">
 
                     {/* Badge */}
@@ -74,5 +72,3 @@ function Hero() {
 }
 
 export default Hero;
-
-

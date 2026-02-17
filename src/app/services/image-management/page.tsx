@@ -115,7 +115,7 @@ export default function ImageManagementPage() {
     ];
 
     return (
-        <div className="min-h-screen bg-white">
+        <div className="min-h-screen bg-white mt-10">
             {/* Hero Section */}
             <section className="bg-gradient-to-b from-sky-50 to-white">
                 <div className="container mx-auto px-4 py-16 md:py-24">

@@ -70,7 +70,7 @@ export default function SpiritualUpliftment() {
     ];
 
     return (
-        <div className="min-h-screen bg-white">
+        <div className="min-h-screen bg-white mt-22">
             {/* Hero Section */}
             <section className="bg-gradient-to-b from-violet-50 to-white">
                 <div className="container mx-auto px-4 py-16 md:py-24">
