@@ -81,6 +81,69 @@ const Testimonials: React.FC = () => {
             title: "Quick Review 7",
             url: "https://youtube.com/shorts/UM_o7WpR_-4",
             thumbnail: "https://img.youtube.com/vi/UM_o7WpR_-4/maxresdefault.jpg"
+        },
+        {
+            id: 11,
+            title: "Quick Review 8",
+            url: "https://youtube.com/shorts/xuhbSzlek24",
+            thumbnail: "https://img.youtube.com/vi/xuhbSzlek24/maxresdefault.jpg"
+        },
+        {
+            id: 12,
+            title: "Quick Review 9",
+            url: "https://youtube.com/shorts/B8gcQ_llFrc",
+            thumbnail: "https://img.youtube.com/vi/B8gcQ_llFrc/maxresdefault.jpg"
+        },
+        {
+            id: 13,
+            title: "Quick Review 10",
+            url: "https://youtube.com/shorts/ZkKZiwEjaV8",
+            thumbnail: "https://img.youtube.com/vi/ZkKZiwEjaV8/maxresdefault.jpg"
+        },
+        {
+            id: 14,
+            title: "Quick Review 11",
+            url: "https://youtube.com/shorts/xB21rHswP5M",
+            thumbnail: "https://img.youtube.com/vi/xB21rHswP5M/maxresdefault.jpg"
+
+        },
+        {
+            id: 15,
+            title: "Quick Review 12",
+            url: "https://youtube.com/shorts/9n2l8Xo7m3I",
+            thumbnail: "https://img.youtube.com/vi/9n2l8Xo7m3I/maxresdefault.jpg"
+
+        },
+        {
+            id: 16,
+            title: "Quick Review 13",
+            url: "https://youtube.com/shorts/9n2l8Xo7m3I",
+            thumbnail: "https://img.youtube.com/vi/9n2l8Xo7m3I/maxresdefault.jpg"
+        },
+        {
+            id: 17,
+            title: "Quick Review 14",
+            url: "https://youtube.com/shorts/9n2l8Xo7m3I",
+            thumbnail: "https://img.youtube.com/vi/9n2l8Xo7m3I/maxresdefault.jpg"
+        },
+        {
+            id: 18,
+            title: "Quick Review 15",
+            url: "https://youtube.com/shorts/9n2l8Xo7m3I",
+            thumbnail: "https://img.youtube.com/vi/9n2l8Xo7m3I/maxresdefault.jpg"
+        },
+        {
+            id: 19,
+            title: "Quick Review 16",
+            url: "https://youtube.com/shorts/9n2l8Xo7m3I",
+            thumbnail: "https://img.youtube.com/vi/9n2l8Xo7m3I/maxresdefault.jpg"
+        },
+        {
+            id: 20,
+            title: "Quick Review 17",
+            url: "https://youtube.com/shorts/9n2l8Xo7m3I",
+            thumbnail: "https://img.youtube.com/vi/9n2l8Xo7m3I/maxresdefault.jpg"
+
         }
     ];
 
