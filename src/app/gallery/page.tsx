@@ -121,7 +121,7 @@ const Gallery = () => {
         <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
                 {/* Header */}
-                <div className="text-center mb-12">
+                <div className="text-center mb-12 mt-22">
                     <h1 className="text-5xl font-bold text-gray-900 mb-4">
                         Our Gallery
                     </h1>
@@ -132,7 +132,7 @@ const Gallery = () => {
 
                 {/* Gallery Grid Section */}
                 <div className="mb-12">
-                    <div className="flex items-center justify-between mb-8">
+                    <div className="flex items-center justify-between mb-8 mt">
                         <div className="flex items-center gap-3">
                             <div className="p-2 bg-blue-50 rounded-lg">
                                 <ImageIcon className="w-6 h-6 text-blue-600" />

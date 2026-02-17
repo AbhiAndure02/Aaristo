@@ -110,43 +110,79 @@ const Testimonials: React.FC = () => {
         {
             id: 15,
             title: "Quick Review 12",
-            url: "https://youtube.com/shorts/9n2l8Xo7m3I",
-            thumbnail: "https://img.youtube.com/vi/9n2l8Xo7m3I/maxresdefault.jpg"
+            url: "https://youtu.be/gMPFj5n30DA",
+            thumbnail: "https://img.youtube.com/vi/gMPFj5n30DA/maxresdefault.jpg"
 
         },
         {
             id: 16,
             title: "Quick Review 13",
-            url: "https://youtube.com/shorts/9n2l8Xo7m3I",
-            thumbnail: "https://img.youtube.com/vi/9n2l8Xo7m3I/maxresdefault.jpg"
+            url: "https://youtu.be/dPmdSnG892Y",
+            thumbnail: "https://img.youtube.com/vi/dPmdSnG892Y/maxresdefault.jpg"
         },
         {
             id: 17,
             title: "Quick Review 14",
-            url: "https://youtube.com/shorts/9n2l8Xo7m3I",
-            thumbnail: "https://img.youtube.com/vi/9n2l8Xo7m3I/maxresdefault.jpg"
+            url: "https://youtu.be/yXl83F8cL4g",
+            thumbnail: "https://img.youtube.com/vi/yXl83F8cL4g/maxresdefault.jpg"
         },
         {
             id: 18,
             title: "Quick Review 15",
-            url: "https://youtube.com/shorts/9n2l8Xo7m3I",
-            thumbnail: "https://img.youtube.com/vi/9n2l8Xo7m3I/maxresdefault.jpg"
+            url: "https://youtu.be/_5lAv1fINMY",
+            thumbnail: "https://img.youtube.com/vi/_5lAv1fINMY/maxresdefault.jpg"
         },
         {
             id: 19,
             title: "Quick Review 16",
-            url: "https://youtube.com/shorts/9n2l8Xo7m3I",
-            thumbnail: "https://img.youtube.com/vi/9n2l8Xo7m3I/maxresdefault.jpg"
+            url: "https://youtu.be/rliul-Zz8ks",
+            thumbnail: "https://img.youtube.com/vi/rliul-Zz8ks/maxresdefault.jpg"
         },
         {
             id: 20,
             title: "Quick Review 17",
-            url: "https://youtube.com/shorts/9n2l8Xo7m3I",
-            thumbnail: "https://img.youtube.com/vi/9n2l8Xo7m3I/maxresdefault.jpg"
+            url: "https://youtu.be/9W7qIBkclJ0",
+            thumbnail: "https://img.youtube.com/vi/9W7qIBkclJ0/maxresdefault.jpg"
 
+        },
+        {
+            id: 21,
+            title: "Quick Review 18",
+            url: "https://youtu.be/9W7qIBkclJ0",
+            thumbnail: "https://img.youtube.com/vi/9W7qIBkclJ0/maxresdefault.jpg"
+
+        },
+        {
+            id: 22,
+            title: "Quick Review 19",
+            url: "https://youtu.be/9W7qIBkclJ0",
+            thumbnail: "https://img.youtube.com/vi/9W7qIBkclJ0/maxresdefault.jpg"
+        },
+        {
+            id: 23,
+            title: "Quick Review 20",
+            url: "https://youtu.be/9W7qIBkclJ0",
+            thumbnail: "https://img.youtube.com/vi/9W7qIBkclJ0/maxresdefault.jpg"
+        },
+        {
+            id: 24,
+            title: "Quick Review 21",
+            url: "https://youtu.be/9W7qIBkclJ0",
+            thumbnail: "https://img.youtube.com/vi/9W7qIBkclJ0/maxresdefault.jpg"
+        },
+        {
+            id: 25,
+            title: "Quick Review 22",
+            url: "https://youtu.be/9W7qIBkclJ0",
+            thumbnail: "https://img.youtube.com/vi/9W7qIBkclJ0/maxresdefault.jpg"
+        },
+        {
+            id: 26,
+            title: "Quick Review 23",
+            url: "https://youtu.be/9W7qIBkclJ0",
+            thumbnail: "https://img.youtube.com/vi/9W7qIBkclJ0/maxresdefault.jpg"
         }
     ];
-
     const [selectedVideo, setSelectedVideo] = useState<Testimonial | null>(null);
     const [currentIndex, setCurrentIndex] = useState<number>(0);
     const [isFullscreen, setIsFullscreen] = useState<boolean>(false);
@@ -218,7 +254,7 @@ const Testimonials: React.FC = () => {
         <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
                 {/* Header */}
-                <div className="text-center mb-12">
+                <div className="text-center mb-12 mt-22">
                     <h1 className="text-4xl font-bold text-gray-900 mb-4">
                         Customer Testimonials
                     </h1>
@@ -248,8 +284,8 @@ const Testimonials: React.FC = () => {
 
                                     {/* Play Button Overlay */}
                                     <div className="absolute inset-0 flex items-center justify-center">
-                                        <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-lg">
-                                            <Play className="w-8 h-8 text-white ml-1" fill="white" />
+                                        <div className="w-12 h-12   bg-red-600 rounded-full flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                                            <Play className="w-6 h-6 text-white ml-1" fill="white" />
                                         </div>
                                     </div>
                                 </div>

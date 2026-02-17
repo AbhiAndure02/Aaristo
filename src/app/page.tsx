@@ -5,6 +5,7 @@ import { ArrowRight, Heart, Brain, User, Sparkles, Target, CheckCircle, Play, Qu
 import Link from 'next/link';
 import InstagramReel from '@/components/InstagramReel';
 import Hero from "@/components/home/Hero";
+import TransformationJourney from '@/components/home/TransformationJourney';
 
 export default function HomePage() {
   const [activeTab, setActiveTab] = useState<'mind' | 'body' | 'soul'>('mind');
@@ -16,6 +17,10 @@ export default function HomePage() {
       {/* Hero Section */}
       <Hero />
       {/* Philosophy Section */}
+
+      <TransformationJourney />
+
+      {  /* Mind Body Soul Tabs Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center mb-16">
