@@ -86,7 +86,7 @@ export default function Header() {
                 HEADER BAR
             ══════════════════════════════════════ */}
             <header
-                className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isTransparent
+                className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 mb-5 ${isTransparent
                     ? 'bg-transparent'
                     : scrolled
                         ? 'bg-white shadow-md shadow-sky-100/60'
