@@ -10,7 +10,6 @@ import {
     ArrowRight,
     CheckCircle,
     Clock,
-    Calendar,
     UserCheck,
     Award,
     Zap,
@@ -92,14 +91,14 @@ const Workshops = () => {
             <div className="max-w-7xl mx-auto mt-22">
                 {/* Hero Section */}
                 <div className="text-center mb-16">
-                    <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-50 to-purple-50 px-4 py-2 rounded-full mb-6 border border-blue-100">
+                    <div className="inline-flex items-center gap-2 bg-linear-to-r from-blue-50 to-purple-50 px-4 py-2 rounded-full mb-6 border border-blue-100">
                         <Sparkles className="w-4 h-4 text-blue-600" />
                         <span className="text-blue-700 font-medium text-sm">Strategic Inner Refinement</span>
                     </div>
 
                     <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
                         Refined leadership
-                        <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
+                        <span className="block text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-purple-600">
                             begins from within
                         </span>
                     </h1>
@@ -116,7 +115,7 @@ const Workshops = () => {
                     <div className="lg:col-span-2">
                         <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
                             <div className="flex items-center gap-3 mb-6">
-                                <div className="p-3 bg-gradient-to-br from-blue-100 to-blue-50 rounded-xl">
+                                <div className="p-3 bg-linear-to-br from-blue-100 to-blue-50 rounded-xl">
                                     <Target className="w-6 h-6 text-blue-600" />
                                 </div>
                                 <h2 className="text-2xl font-bold text-gray-900">The Performance Challenge</h2>
@@ -128,7 +127,7 @@ const Workshops = () => {
                                 and a refined professional image that inspires trust and authority.
                             </p>
 
-                            <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-6 border border-blue-100">
+                            <div className="bg-linear-to-r from-blue-50 to-purple-50 rounded-xl p-6 border border-blue-100">
                                 <p className="text-gray-800 font-medium italic">
                                     "This is not motivational training. It is strategic inner refinement for measurable performance."
                                 </p>
@@ -138,7 +137,7 @@ const Workshops = () => {
                         {/* Methodology Section */}
                         <div className="mt-8 bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
                             <div className="flex items-center gap-3 mb-6">
-                                <div className="p-3 bg-gradient-to-br from-purple-100 to-purple-50 rounded-xl">
+                                <div className="p-3 bg-linear-to-br from-purple-100 to-purple-50 rounded-xl">
                                     <Brain className="w-6 h-6 text-purple-600" />
                                 </div>
                                 <h2 className="text-2xl font-bold text-gray-900">Integrated Approach</h2>
@@ -160,7 +159,7 @@ const Workshops = () => {
                                     "Communication Impact"
                                 ].map((item, index) => (
                                     <div key={index} className="flex items-center gap-3 bg-gray-50 p-4 rounded-xl">
-                                        <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" />
+                                        <CheckCircle className="w-5 h-5 text-green-500 shrink-0" />
                                         <span className="text-gray-800 font-medium">{item}</span>
                                     </div>
                                 ))}
@@ -170,7 +169,7 @@ const Workshops = () => {
 
                     {/* Right Column - Focus Areas */}
                     <div className="space-y-8">
-                        <div className="bg-gradient-to-br from-blue-900 to-purple-900 rounded-2xl p-8 text-white shadow-xl">
+                        <div className="bg-linear-to-br from-blue-900 to-purple-900 rounded-2xl p-8 text-white shadow-xl">
                             <h3 className="text-xl font-bold mb-6 flex items-center gap-3">
                                 <TrendingUp className="w-6 h-6" />
                                 Organisational Impact
@@ -204,7 +203,7 @@ const Workshops = () => {
                             <div className="space-y-3">
                                 {benefits.slice(0, 3).map((benefit, index) => (
                                     <div key={index} className="flex items-center gap-3 p-3 hover:bg-gray-50 rounded-lg transition-colors">
-                                        <div className="p-2 bg-gradient-to-br from-gray-50 to-white rounded-lg">
+                                        <div className="p-2 bg-linear-to-br from-gray-50 to-white rounded-lg">
                                             {benefit.icon}
                                         </div>
                                         <div>
@@ -231,7 +230,7 @@ const Workshops = () => {
                         {offerings.map((workshop, index) => (
                             <div key={index} className="group bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl border border-gray-100 transition-all duration-300 transform hover:-translate-y-1">
                                 <div className="mb-4">
-                                    <div className="inline-flex p-3 bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl mb-4">
+                                    <div className="inline-flex p-3 bg-linear-to-br from-blue-50 to-purple-50 rounded-xl mb-4">
                                         {workshop.icon}
                                     </div>
                                     <h3 className="text-xl font-bold text-gray-900 mb-2">{workshop.title}</h3>
@@ -256,7 +255,7 @@ const Workshops = () => {
                                     ))}
                                 </div>
 
-                                <button className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-medium py-3 rounded-lg hover:opacity-90 transition-opacity group-hover:shadow-md">
+                                <button className="w-full flex items-center justify-center gap-2 bg-linear-to-r from-blue-600 to-purple-600 text-white font-medium py-3 rounded-lg hover:opacity-90 transition-opacity group-hover:shadow-md">
                                     Explore Program
                                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                                 </button>
@@ -278,7 +277,7 @@ const Workshops = () => {
                         {benefits.map((benefit, index) => (
                             <div key={index} className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:border-blue-200 transition-all duration-300 group hover:shadow-xl">
                                 <div className="mb-4">
-                                    <div className="inline-flex p-3 rounded-xl mb-4 bg-gradient-to-br from-white to-gray-50 group-hover:scale-110 transition-transform duration-300">
+                                    <div className="inline-flex p-3 rounded-xl mb-4 bg-linear-to-br from-white to-gray-50 group-hover:scale-110 transition-transform duration-300">
                                         {benefit.icon}
                                     </div>
                                     <h3 className="text-xl font-bold text-gray-900 mb-3">{benefit.title}</h3>
@@ -303,9 +302,9 @@ const Workshops = () => {
 
                 {/* Philosophy Section */}
                 <div className="mt-16 text-center max-w-4xl mx-auto">
-                    <div className="inline-block p-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mb-6">
+                    <div className="inline-block p-1 bg-linear-to-r from-blue-600 to-purple-600 rounded-full mb-6">
                         <div className="bg-white px-6 py-2 rounded-full">
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 font-bold">
+                            <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-purple-600 font-bold">
                                 Our Philosophy
                             </span>
                         </div>

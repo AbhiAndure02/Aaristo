@@ -65,10 +65,10 @@ export default function Header() {
             dropdownOnly: true,   // ← clicking label opens dropdown only, no /services navigation
             hasDropdown: true,
             dropdownItems: [
-                { label: 'Image Management', href: '/services/image-management' },
-                { label: 'Life Coaching', href: '/services/life-coaching' },
-                { label: 'Past Life Regression', href: '/services/past-life-regression' },
-                { label: 'Spiritual Upliftment', href: '/services/spiritual-upliftment' },
+                { label: 'Image Management', href: '/image-management' },
+                { label: 'Life Coaching', href: '/life-coaching' },
+                { label: 'Past Life Regression', href: '/past-life-regression' },
+                { label: 'Spiritual Upliftment', href: '/spiritual-upliftment' },
             ],
         },
         { id: 4, label: 'Workshops', href: '/workshops' },

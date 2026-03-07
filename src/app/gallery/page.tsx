@@ -240,7 +240,6 @@ const Gallery = () => {
                                     <video
                                         src={firewalkVideo.src}
                                         className="w-full h-full object-cover"
-                                        poster={`/gallery/firewalk-preview.jpg`}
                                         preload="metadata"
                                     />
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
@@ -450,7 +449,7 @@ const Gallery = () => {
                                                     <button
                                                         key={item.id}
                                                         onClick={() => handleSelectItem(index)}
-                                                        className={`flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden transition-all duration-200 shadow-md ${currentIndex === index
+                                                        className={`shrink-0 w-20 h-20 rounded-xl overflow-hidden transition-all duration-200 shadow-md ${currentIndex === index
                                                             ? 'ring-2 ring-blue-500 transform scale-105'
                                                             : 'opacity-70 hover:opacity-100 hover:shadow-lg'
                                                             }`}
@@ -502,3 +501,5 @@ const Gallery = () => {
 };
 
 export default Gallery;
+
+
