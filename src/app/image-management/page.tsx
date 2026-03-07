@@ -1,5 +1,6 @@
 import { subtle } from 'crypto';
 import Image from 'next/image'
+import Link from 'next/link';
 import React from 'react'
 
 interface SectionProps {
@@ -284,9 +285,9 @@ const ImageManagement = () => {
                     <h3 className="text-4xl font-light text-stone-200 mb-8">
                         Ready to redefine your image?
                     </h3>
-                    <button className="px-10 py-4 text-sm tracking-widest uppercase font-semibold bg-amber-500 text-stone-900 hover:bg-amber-400 transition-colors duration-300 rounded-sm">
+                    <Link href='/contact' className="px-10 py-4 text-sm tracking-widest uppercase font-semibold bg-amber-500 text-stone-900 hover:bg-amber-400 transition-colors duration-300 rounded-sm">
                         Get Started
-                    </button>
+                    </Link>
                 </div>
             </div>
 

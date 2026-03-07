@@ -10,7 +10,7 @@ export default function Services() {
             icon: <Users className="text-sky-600" size={24} />,
             title: 'Image Management',
             description: 'Master your professional presence through body language, confidence building, and personal style transformation.',
-            href: '/services/image-management',
+            href: '/image-management',
             features: ['Body Language Awareness', 'Self Confidence Building', 'Personal Shopping Services'],
             color: 'sky',
             popular: true
@@ -19,7 +19,7 @@ export default function Services() {
             icon: <Brain className="text-emerald-600" size={24} />,
             title: 'Life Coaching',
             description: 'NLP-based coaching to overcome past issues, present challenges, and future uncertainties for self-growth.',
-            href: '/services/life-coaching',
+            href: '/life-coaching',
             features: ['Past Issue Resolution', 'Present Challenge Support', 'Future Clarity'],
             color: 'emerald'
         },
@@ -27,7 +27,7 @@ export default function Services() {
             icon: <Sparkles className="text-violet-600" size={24} />,
             title: 'Spiritual Upliftment',
             description: 'Practical spirituality without religion - reconnect with your inner self, intuition, and energy balance.',
-            href: '/services/spiritual-upliftment',
+            href: '/spiritual-upliftment',
             features: ['Cosmic Energy Access', 'Chakra Healing', 'Intuition Development'],
             color: 'violet'
         },
@@ -35,26 +35,11 @@ export default function Services() {
             icon: <Heart className="text-rose-600" size={24} />,
             title: 'Past Life Regression',
             description: 'Explore past experiences to understand and overcome current life patterns, fears, and blockages.',
-            href: '/services/past-life-regression',
+            href: ' /past-life-regression',
             features: ['Past Life Exploration', 'Pattern Recognition', 'Healing Past Traumas'],
             color: 'rose'
         },
-        {
-            icon: <Target className="text-amber-600" size={24} />,
-            title: 'Mind Transformation',
-            description: 'Reprogram your mindset to overcome limiting beliefs and achieve success in all areas of life.',
-            href: '/services/mind-transformation',
-            features: ['Limiting Belief Removal', 'Success Mindset', 'Mental Reprogramming'],
-            color: 'amber'
-        },
-        {
-            icon: <Zap className="text-purple-600" size={24} />,
-            title: 'Body Presentation',
-            description: 'Enhance your professional image through posture, etiquette, and confident self-presentation.',
-            href: '/services/body-presentation',
-            features: ['Professional Etiquette', 'Confidence Building', 'Presentation Skills'],
-            color: 'purple'
-        }
+
     ];
 
     const servicePackages = [

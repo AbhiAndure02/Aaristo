@@ -67,6 +67,21 @@ const steps: Step[] = [
             'M12 21.593c-5.63-5.539-11-10.297-11-14.402 0-3.791 3.068-5.191 5.281-5.191 1.312 0 4.151.501 5.719 4.457 1.59-3.968 4.464-4.447 5.726-4.447 2.54 0 5.274 1.621 5.274 5.181 0 4.069-5.136 8.625-11 14.402z',
         path: '/spiritual-upliftment',
     },
+    {
+        number: '04',
+        phase: 'Inner Awakening',
+        title: 'Past Life Regression',
+        body: 'A guided therapeutic process that helps you access subconscious memories to release emotional blocks, unresolved fears, and karmic patterns for deep healing and clarity.',
+        accent: 'violet',
+        iconBg: 'bg-violet-100',
+        borderColor: 'border-violet-400',
+        badgeBg: 'bg-violet-100',
+        badgeText: 'text-violet-700',
+        dotColor: 'bg-violet-500',
+        svgPath:
+            'M12 2C8 6 4 9 4 14a8 8 0 0016 0c0-5-4-8-8-12z',
+        path: '/past-life-regression',
+    }
 ];
 
 const outcomes = [
@@ -154,7 +169,8 @@ function StepCard({ step, index }: { step: Step; index: number }) {
                 </div>
                 <a href={step.path} className="mt-4 w-full py-3 px-4 text-center bg-purple-500 hover:bg-purple-600 text-white font-medium rounded-lg transition-colors duration-200">
                     Explore More
-                </a>       </div>
+                </a>
+            </div>
         </div>
     );
 }
@@ -165,7 +181,7 @@ export default function TransformationJourney() {
     const { ref: resultRef, inView: resultIn } = useInView(0.25);
 
     return (
-        <section className="relative py-20 sm:py-24 lg:py-28 bg-gradient-to-b from-gray-50 via-white to-sky-50/30 overflow-hidden">
+        <section className="relative py-20 sm:py-24 lg:py-28 bg-linear-to-b from-gray-50 via-white to-sky-50/30 overflow-hidden">
 
             {/* ── Decorative background blobs ── */}
             <div aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden">
@@ -193,16 +209,12 @@ export default function TransformationJourney() {
                 >
                     {/* Eyebrow pill */}
 
-                    <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight tracking-tight mb-4">
-                        Not Just Success —{' '}
-                        <span className="relative inline-block">
-                            <span className="relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-indigo-500">
-                                True Transformation
-                            </span>
-                            {/* Underline accent */}
-                            <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-sky-400 to-indigo-400 rounded-full" aria-hidden="true" />
+                    <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
+                        Rewrite Your Mind,
+                        <span className="block text-transparent bg-clip-text bg-linear-to-r from-sky-300 to-blue-400">
+                            Awaken Your Spirit
                         </span>
-                    </h2>
+                    </h1>
 
                     <p className="text-gray-500 text-base sm:text-lg leading-relaxed">
                         Every person who walks through our doors begins at a different place.
@@ -258,8 +270,8 @@ export default function TransformationJourney() {
 
                         {/* Background shimmer lines */}
                         <div aria-hidden="true" className="absolute inset-0 opacity-10">
-                            <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-sky-400 to-transparent" />
-                            <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-indigo-400 to-transparent" />
+                            <div className="absolute top-0 left-0 w-full h-px bg-linear-to-r from-transparent via-sky-400 to-transparent" />
+                            <div className="absolute bottom-0 left-0 w-full h-px bg-linear-to-r from-transparent via-indigo-400 to-transparent" />
                             <div className="absolute -top-40 -right-40 w-80 h-80 rounded-full bg-sky-500 blur-3xl opacity-20" />
                             <div className="absolute -bottom-40 -left-40 w-80 h-80 rounded-full bg-indigo-500 blur-3xl opacity-20" />
                         </div>

@@ -1,3 +1,4 @@
+"use client"
 import Image from 'next/image';
 import Link from 'next/link';
 import { Mail, Phone, MapPin, Heart } from 'lucide-react';
@@ -19,10 +20,10 @@ export default function Footer() {
     const currentYear = new Date().getFullYear();
 
     const services: Services[] = [
-        { name: 'Image Management', href: '/services/image-management' },
-        { name: 'Life Coaching', href: '/services/life-coaching' },
-        { name: 'Past Life Regression', href: '/services/past-life-regression' },
-        { name: 'Spiritual Upliftment', href: '/services/spiritual-upliftment' }
+        { name: 'Image Management', href: '/image-management' },
+        { name: 'Life Coaching', href: '/life-coaching' },
+        { name: 'Past Life Regression', href: '/past-life-regression' },
+        { name: 'Spiritual Upliftment', href: '/spiritual-upliftment' }
     ];
 
     const companyLinks: CompanyLink[] = [
@@ -122,31 +123,21 @@ export default function Footer() {
                             </div>
                             <div className="flex items-center">
                                 <Mail size={16} className="text-gray-400 mr-2 flex-shrink-0" />
-                                <a
-                                    href="mailto:monica@aaristo.com"
+                                <button
+                                    onClick={() => {
+                                        window.location.href = "mailto:monica@aaristo.com";
+                                    }}
                                     className="text-gray-600 text-sm hover:text-sky-600 transition-colors"
                                 >
                                     monica@aaristo.com
-                                </a>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                {/* Legal Links */}
-                <div className="mt-8 pt-6 border-t border-gray-200">
-                    <div className="flex flex-wrap gap-4 justify-center">
-                        {legalLinks.map((link) => (
-                            <Link
-                                key={link.name}
-                                href={link.href}
-                                className="text-gray-500 hover:text-sky-600 text-sm transition-colors"
-                            >
-                                {link.name}
-                            </Link>
-                        ))}
-                    </div>
-                </div>
+
+
 
                 {/* Copyright */}
                 <div className="mt-8 pt-6 border-t border-gray-200 text-center">
