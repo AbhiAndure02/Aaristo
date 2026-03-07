@@ -289,7 +289,6 @@ const Testimonials: React.FC = () => {
             rating: 5
         }
     ];
-
     const [selectedVideo, setSelectedVideo] = useState<Testimonial | null>(null);
     const [selectedPhoto, setSelectedPhoto] = useState<PhotoTestimonial | null>(null);
     const [currentVideoIndex, setCurrentVideoIndex] = useState<number>(0);
