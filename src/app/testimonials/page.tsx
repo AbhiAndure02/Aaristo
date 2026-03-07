@@ -163,6 +163,12 @@ const Testimonials: React.FC = () => {
         setCurrentPhotoIndex(newIndex);
     };
 
+    const totalVideos = videoTestimonials.length;
+    const totalPhotos = photoTestimonials.length;
+
+    // Render stars for rating
+
+
     return (
         <div className="min-h-screen bg-linear-to-br from-gray-50 to-gray-100 py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
@@ -652,6 +658,18 @@ const PhotoModal: React.FC<PhotoModalProps> = ({
                                 <span>F Fullscreen</span>
                                 <span>0 Reset</span>
                             </div>
+                        )}
+
+                        {/* Keyboard Shortcuts Hint */}
+                        <div className="mt-4 text-center text-xs text-gray-500">
+                            <span className="inline-flex items-center gap-4">
+                                <kbd className="px-2 py-1 bg-gray-800 rounded text-xs">← →</kbd>
+                                <span>Navigate</span>
+                                <kbd className="px-2 py-1 bg-gray-800 rounded text-xs">F</kbd>
+                                <span>Fullscreen</span>
+                                <kbd className="px-2 py-1 bg-gray-800 rounded text-xs">ESC</kbd>
+                                <span>Close</span>
+                            </span>
                         </div>
                     </div>
                 </div>
