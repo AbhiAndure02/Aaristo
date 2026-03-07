@@ -16,7 +16,8 @@ type Step = {
     badgeBg: string;
     badgeText: string;
     dotColor: string;
-    svgPath: string;       // single-path SVG icon
+    svgPath: string;
+    path: string;        // single-path SVG icon
 };
 
 // ─── Data ────────────────────────────────────────────────────────────────────
@@ -32,9 +33,10 @@ const steps: Step[] = [
         badgeBg: 'bg-sky-100',
         badgeText: 'text-sky-700',
         dotColor: 'bg-sky-400',
-        svgPath:
-            'M12 2a5 5 0 1 1 0 10A5 5 0 0 1 12 2zm0 13c-5.33 0-8 2.67-8 4v1h16v-1c0-1.33-2.67-4-8-4z',
+        svgPath: 'M12 2a5 5 0 1 1 0 10A5 5 0 0 1 12 2zm0 13c-5.33 0-8 2.67-8 4v1h16v-1c0-1.33-2.67-4-8-4z',
+        path: '/image-management',
     },
+
     {
         number: '02',
         phase: 'The Realisation',
@@ -48,6 +50,7 @@ const steps: Step[] = [
         dotColor: 'bg-blue-400',
         svgPath:
             'M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93V18h-2v1.93A8.001 8.001 0 0 1 4.07 13H6v-2H4.07A8.001 8.001 0 0 1 11 4.07V6h2V4.07A8.001 8.001 0 0 1 19.93 11H18v2h1.93A8.001 8.001 0 0 1 13 19.93zM12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z',
+        path: '/life-coaching',
     },
     {
         number: '03',
@@ -62,6 +65,7 @@ const steps: Step[] = [
         dotColor: 'bg-indigo-400',
         svgPath:
             'M12 21.593c-5.63-5.539-11-10.297-11-14.402 0-3.791 3.068-5.191 5.281-5.191 1.312 0 4.151.501 5.719 4.457 1.59-3.968 4.464-4.447 5.726-4.447 2.54 0 5.274 1.621 5.274 5.181 0 4.069-5.136 8.625-11 14.402z',
+        path: '/spiritual-upliftment',
     },
 ];
 
@@ -148,7 +152,9 @@ function StepCard({ step, index }: { step: Step; index: number }) {
                     <span className={`w-1.5 h-1.5 rounded-full ${step.dotColor} opacity-50`} />
                     <span className={`w-1 h-1 rounded-full ${step.dotColor} opacity-25`} />
                 </div>
-            </div>
+                <a href={step.path} className="mt-4 w-full py-3 px-4 text-center bg-purple-500 hover:bg-purple-600 text-white font-medium rounded-lg transition-colors duration-200">
+                    Explore More
+                </a>       </div>
         </div>
     );
 }
