@@ -106,7 +106,6 @@ const Testimonials: React.FC = () => {
         { id: 119, imageUrl: "/testimonials/19.jpg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
         { id: 120, imageUrl: "/testimonials/20.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
     ];
-
     const [selectedVideo, setSelectedVideo] = useState<Testimonial | null>(null);
     const [selectedPhoto, setSelectedPhoto] = useState<PhotoTestimonial | null>(null);
     const [currentVideoIndex, setCurrentVideoIndex] = useState<number>(0);
