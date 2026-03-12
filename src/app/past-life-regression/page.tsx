@@ -128,7 +128,7 @@ const PastLifeRegression = () => {
                 </ul>
             )
             ,
-            imageSrc: "/coaching/deft.jpg",
+            imageSrc: "/regression/past.png",
             imageAlt: "Past Life Regression",
 
         },
@@ -148,7 +148,7 @@ const PastLifeRegression = () => {
                     ))}
                 </ul>
             ),
-            imageSrc: "/coaching/womb.jpg",
+            imageSrc: "/regression/womb.png",
             imageAlt: "Womb Regression",
             reverse: true
         },
@@ -165,7 +165,7 @@ const PastLifeRegression = () => {
                     </p>
                 </>
             ),
-            imageSrc: "/coaching/future.jpg",
+            imageSrc: "/regression/future.png",
             imageAlt: "Future Life Progression",
             reverse: false
         },
