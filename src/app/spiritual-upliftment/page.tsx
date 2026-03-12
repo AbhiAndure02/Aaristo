@@ -112,16 +112,13 @@ const SpiritualUpliftment = () => {
 
 
         {
-            title: "Inner pacing ",
+            title: "Communicating with Self and Aligning Inner and Outer Self ",
             subtitle: "Going inside and communicating with your body",
             description: (
                 <ul className="space-y-3">
                     {[
-                        "Gives you a professional and polished image that commands respect",
-                        "Provides professional tools to impress clients and colleagues at every meeting",
-                        "Puts others at ease so that business can be conducted smoothly and effectively",
-                        "Helps to establish rapport with others more easily and authentically",
-                        "Builds confidence and helps create a winning, memorable personal style",
+                        "Many times in life, we are so focused on fulfilling external roles and expectations that we lose connection with our own inner voice. When our thoughts, emotions, and actions are not aligned, it can create confusion, stress, and a feeling that something is missing despite outward success.",
+                        "This session helps you reconnect with yourself and develop a deeper understanding of your inner thoughts, feelings, and values. By learning how to communicate honestly with yourself, you become more aware of what truly matters to you. As your inner self and outer actions begin to align, you experience greater clarity, authenticity, and confidence. This alignment allows you to live with purpose, make decisions with conviction, and create a life that truly reflects who you are."
                     ].map((item, i) => (
                         <li key={i} className="flex items-start gap-3">
                             <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0 bg-amber-400" />
@@ -136,16 +133,13 @@ const SpiritualUpliftment = () => {
 
         },
         {
-            title: "Meditation",
+            title: "Meditation and Understanding Your Personal Frequency",
             subtitle: "Understand your personal frequency and attain it ",
             description: (
                 <ul className="space-y-3">
                     {[
-                        "Gives you a professional and polished image that commands respect",
-                        "Provides professional tools to impress clients and colleagues at every meeting",
-                        "Puts others at ease so that business can be conducted smoothly and effectively",
-                        "Helps to establish rapport with others more easily and authentically",
-                        "Builds confidence and helps create a winning, memorable personal style",
+                        "Meditation is a powerful practice that helps calm the mind, reduce stress, and bring greater awareness to your thoughts and emotions. In the rush of daily life, our mind is often filled with constant activity, making it difficult to connect with our true self and inner clarity.",
+                        "Through meditation, you learn to slow down, observe your thoughts, and develop a deeper connection with your inner self. This process helps you become aware of your personal frequency—your natural state of energy, thoughts, and emotions. When you understand and balance this frequency, you begin to feel more centered, peaceful, and focused. With regular practice, meditation helps you create inner stability, improve emotional well-being, and live with greater awareness and harmony."
                     ].map((item, i) => (
                         <li key={i} className="flex items-start gap-3">
                             <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0 bg-amber-400" />
@@ -164,11 +158,9 @@ const SpiritualUpliftment = () => {
             description: (
                 <>
                     <p className="mb-5">
-                        What utters volumes more than your words? Yes — your body language and your appearance speak before you even open your mouth. The impression you make in the first seven seconds is almost entirely non-verbal.
-                    </p>
+                        We often hear people talk about energy—positive energy, negative energy, or inner energy—but most of the time we do not truly understand what it means or how it actually feels. It remains more like a concept rather than a real experience.                    </p>
                     <p>
-                        The language spoken by our clothes and our body is understood by everyone across cultures and borders. Let every movement tell a story of grace, confidence, and intentional presence.
-                    </p>
+                        In this session, you will get the opportunity to directly experience energy in a simple and guided way. Through specific exercises and awareness techniques, you will begin to see, feel, and even hear the subtle expressions of energy within and around you. This experience helps you develop a deeper connection with your own inner state and understand how energy influences your thoughts, emotions, and overall well-being. Once you experience it for yourself, the concept of energy becomes real, meaningful, and easier to understand in daily life.                    </p>
                 </>
             ),
             imageSrc: "/life/energy.png",
@@ -181,10 +173,10 @@ const SpiritualUpliftment = () => {
             description: (
                 <>
                     <p className="mb-5">
-                        Mastering the art of dining etiquette gives you professional tools to impress clients and colleagues in even the most formal of settings. It puts others at ease so that meaningful conversations and business can unfold naturally.
+                        Our thoughts, emotions, and actions create a certain vibration within us that influences how we feel and how we experience life. When we are stressed, fearful, or negative, our energy feels heavy and low. On the other hand, when we feel positive, calm, and grateful, our vibration naturally rises and we experience more clarity, happiness, and balance.
                     </p>
                     <p>
-                        Creates a comfortable, refined dining environment where professional relationships truly flourish — and trust is built one course at a time, with grace and warmth.
+                        In this session, you will learn how to become aware of your own energy and simple ways to consciously raise your vibrations. Through practical techniques, positive habits, and mindful awareness, you can shift your emotional state and create a more uplifting inner environment. As your vibration rises, you begin to attract better experiences, build healthier relationships, and live with greater peace, positivity, and inner strength.
                     </p>
                 </>
             ),
@@ -198,10 +190,11 @@ const SpiritualUpliftment = () => {
             description: (
                 <>
                     <p className="mb-5">
-                        Your wardrobe is your most visible form of self-expression. A thoughtfully curated personal style communicates your values, your ambitions, and your attention to detail — long before a single word is exchanged.
+                        In today’s fast-paced and highly digital world, many people feel mentally scattered, restless, or disconnected from themselves. Grounding is a simple yet powerful practice that helps you reconnect with the Earth’s natural energy, bringing stability, calmness, and balance to your mind and body.
+
                     </p>
                     <p>
-                        We guide you through building a wardrobe that works seamlessly across every context — from boardrooms to galas — ensuring you always step forward with intention, elegance, and effortless confidence.
+                        Nowadays, many products like grounding mats are available that claim to help with this connection. However, true grounding does not require any equipment. You can ground yourself naturally with simple practices that reconnect you directly with the Earth. All you really need is yourself and your natural connection with the Earth. In this session, you will learn easy techniques to ground yourself, helping you feel more centered, relaxed, and energetically balanced in your daily life.
                     </p>
                 </>
             ),
@@ -210,15 +203,16 @@ const SpiritualUpliftment = () => {
             reverse: false
         },
         {
-            title: "Cosmic healing",
+            title: "Accessing Cosmic Energy",
             subtitle: "Unlocks karmic memories",
             description: (
                 <>
                     <p className="mb-5">
-                        Your wardrobe is your most visible form of self-expression. A thoughtfully curated personal style communicates your values, your ambitions, and your attention to detail — long before a single word is exchanged.
+                        The universe is filled with a vast and powerful source of energy that supports all life. This cosmic energy is always present around us, yet most people are not aware of it or do not know how to consciously connect with it. When we learn to tune ourselves to this universal energy, we can experience a deeper sense of harmony, clarity, and inner strength.
+
                     </p>
                     <p>
-                        We guide you through building a wardrobe that works seamlessly across every context — from boardrooms to galas — ensuring you always step forward with intention, elegance, and effortless confidence.
+                        In this session, you will learn simple techniques to become aware of and access cosmic energy in a natural and balanced way. By calming the mind and increasing awareness, you can open yourself to this higher source of energy and allow it to flow through you. This connection can help you feel more peaceful, energized, and aligned, supporting both your inner growth and overall well-being
                     </p>
                 </>
             ),
@@ -231,10 +225,10 @@ const SpiritualUpliftment = () => {
             description: (
                 <>
                     <p className="mb-5">
-                        Your wardrobe is your most visible form of self-expression. A thoughtfully curated personal style communicates your values, your ambitions, and your attention to detail — long before a single word is exchanged.
+                        Our body has natural energy centers known as chakras that influence our physical, emotional, and mental well-being. When these energy centers are balanced and flowing properly, we feel healthy, calm, and emotionally stable. However, stress, negative experiences, and unhealthy habits can block or disturb this energy flow, leading to imbalance in our mind and body.
                     </p>
                     <p>
-                        We guide you through building a wardrobe that works seamlessly across every context — from boardrooms to galas — ensuring you always step forward with intention, elegance, and effortless confidence.
+                        In this session, you will learn about the different chakras and how they affect various aspects of your life. Through guided chakra meditation and simple healing techniques, you can begin to balance and activate these energy centers. As the chakras become aligned and the energy flows freely, you may experience greater clarity, emotional balance, inner peace, and an overall sense of well-being.
                     </p>
                 </>
             ),

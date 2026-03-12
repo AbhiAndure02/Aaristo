@@ -112,16 +112,13 @@ const PastLifeRegression = () => {
 
 
         {
-            title: "Detoxing & cleansing Past",
-            subtitle: "Detoxing & cleansing Past",
+            title: "Past Life Regression",
+            subtitle: "Past Life Regression",
             description: (
                 <ul className="space-y-3">
                     {[
-                        "Gives you a professional and polished image that commands respect",
-                        "Provides professional tools to impress clients and colleagues at every meeting",
-                        "Puts others at ease so that business can be conducted smoothly and effectively",
-                        "Helps to establish rapport with others more easily and authentically",
-                        "Builds confidence and helps create a winning, memorable personal style",
+                        "Many people feel certain fears, emotional patterns, or unexplained connections in life without clearly understanding their origin.Sometimes, these feelings may seem deeper than present life experiences.Past Life Regression is a guided process that helps you explore memories stored in the deeper layers of the subconscious mind.",
+                        "In this session, through a relaxed and meditative state, you are guided to access memories that may provide insights into recurring patterns, fears, or relationships in your life. The purpose is not just to explore the past but to gain understanding and emotional release in the present. This awareness can help you let go of unresolved emotions, heal inner conflicts, and move forward with greater clarity, peace, and personal growth."
                     ].map((item, i) => (
                         <li key={i} className="flex items-start gap-3">
                             <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0 bg-amber-400" />
@@ -131,21 +128,18 @@ const PastLifeRegression = () => {
                 </ul>
             )
             ,
-            imageSrc: "/coaching/det.jpg",
-            imageAlt: "Detoxing & cleansing Past",
+            imageSrc: "/coaching/deft.jpg",
+            imageAlt: "Past Life Regression",
 
         },
         {
-            title: "Forgiving & Inner pacing",
-            subtitle: "Forgiving & Inner pacing",
+            title: "Womb Regression",
+            subtitle: "Womb Regression",
             description: (
                 <ul className="space-y-3">
                     {[
-                        "Gives you a professional and polished image that commands respect",
-                        "Provides professional tools to impress clients and colleagues at every meeting",
-                        "Puts others at ease so that business can be conducted smoothly and effectively",
-                        "Helps to establish rapport with others more easily and authentically",
-                        "Builds confidence and helps create a winning, memorable personal style",
+                        "The period when a child is in the mother’s womb is very significant, as the baby can absorb emotions, stress, and experiences from the environment around the mother. These early impressions can sometimes influence a person’s emotions, behavior patterns, and subconscious beliefs later in life.",
+                        "Womb Regression is a guided process that helps you gently explore and understand the impressions formed during this early stage of life. Through a relaxed and meditative state, you may gain insights into emotions or patterns that originated during this time. The session focuses on releasing any negative imprints and creating a sense of safety, acceptance, and positivity. As these early impressions are healed, it can bring a deep sense of emotional balance, inner comfort, and well-being."
                     ].map((item, i) => (
                         <li key={i} className="flex items-start gap-3">
                             <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0 bg-amber-400" />
@@ -154,13 +148,13 @@ const PastLifeRegression = () => {
                     ))}
                 </ul>
             ),
-            imageSrc: "/coaching/forgiving.jpg",
-            imageAlt: "Business etiquette illustration",
+            imageSrc: "/coaching/womb.jpg",
+            imageAlt: "Womb Regression",
             reverse: true
         },
         {
-            title: "Understanding Life",
-            subtitle: "Understanding Life",
+            title: "Future Life Progression",
+            subtitle: "Future Life Progression",
             description: (
                 <>
                     <p className="mb-5">
@@ -171,61 +165,11 @@ const PastLifeRegression = () => {
                     </p>
                 </>
             ),
-            imageSrc: "/coaching/understand.jpg",
-            imageAlt: "Understanding Life",
+            imageSrc: "/coaching/future.jpg",
+            imageAlt: "Future Life Progression",
             reverse: false
         },
-        {
-            title: "Emotional wellness",
-            subtitle: "Emotional wellness",
-            description: (
-                <>
-                    <p className="mb-5">
-                        Mastering the art of dining etiquette gives you professional tools to impress clients and colleagues in even the most formal of settings. It puts others at ease so that meaningful conversations and business can unfold naturally.
-                    </p>
-                    <p>
-                        Creates a comfortable, refined dining environment where professional relationships truly flourish — and trust is built one course at a time, with grace and warmth.
-                    </p>
-                </>
-            ),
-            imageSrc: "/coaching/emotion.jpg",
-            imageAlt: "Emotional wellness",
-            reverse: true
-        },
-        {
-            title: "Balancing Energies & energy routine",
-            subtitle: "Balancing Energies & energy routine",
-            description: (
-                <>
-                    <p className="mb-5">
-                        Your wardrobe is your most visible form of self-expression. A thoughtfully curated personal style communicates your values, your ambitions, and your attention to detail — long before a single word is exchanged.
-                    </p>
-                    <p>
-                        We guide you through building a wardrobe that works seamlessly across every context — from boardrooms to galas — ensuring you always step forward with intention, elegance, and effortless confidence.
-                    </p>
-                </>
-            ),
-            imageSrc: "/coaching/balance.jpg",
-            imageAlt: "Balancing Energies & energy routine",
-            reverse: false
-        },
-        {
-            title: "Releasing all Limiting Beliefs",
-            subtitle: "Releasing all Limiting Beliefs",
-            description: (
-                <>
-                    <p className="mb-5">
-                        Your wardrobe is your most visible form of self-expression. A thoughtfully curated personal style communicates your values, your ambitions, and your attention to detail — long before a single word is exchanged.
-                    </p>
-                    <p>
-                        We guide you through building a wardrobe that works seamlessly across every context — from boardrooms to galas — ensuring you always step forward with intention, elegance, and effortless confidence.
-                    </p>
-                </>
-            ),
-            imageSrc: "/coaching/releasing.jpg",
-            imageAlt: "Releasing all Limiting Beliefs",
-            reverse: true
-        }
+
     ]
 
     return (
@@ -254,7 +198,7 @@ const PastLifeRegression = () => {
                     <div className="w-16 h-px mx-auto mb-8 bg-amber-500" />
 
                     <p className="text-stone-400 max-w-xl text-lg font-light leading-relaxed">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit atque at itaque animi corporis inventore quidem earum iste officia incidunt ratione a alias obcaecati excepturi, assumenda cum voluptate odit saepe culpa praesentium. Porro accusamus dolores, ex praesentium ab adipisci placeat facere? Perferendis iste cum amet omnis assumenda itaque reiciendis natus!
+
                     </p>
                 </div>
             </div>
