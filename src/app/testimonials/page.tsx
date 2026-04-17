@@ -84,29 +84,34 @@ const Testimonials: React.FC = () => {
         { id: 24, title: "Quick Review 21", url: "https://youtu.be/dbJUhYpJAHY", thumbnail: "https://img.youtube.com/vi/dbJUhYpJAHY/maxresdefault.jpg", type: 'video' },
         { id: 25, title: "Quick Review 22", url: "https://youtu.be/tKDZDFAdwj4", thumbnail: "https://img.youtube.com/vi/tKDZDFAdwj4/maxresdefault.jpg", type: 'video' },
         { id: 26, title: "Quick Review 23", url: "https://youtu.be/H54nzs704Dk", thumbnail: "https://img.youtube.com/vi/H54nzs704Dk/maxresdefault.jpg", type: 'video' },
+        { id: 27, title: "Quick Review 27", url: "https://youtu.be/21FqhXF_mD8", thumbnail: "https://img.youtube.com/vi/21FqhXF_mD8/maxresdefault.jpg", type: 'video' },
+        { id: 28, title: "Quick Review 28", url: "https://youtube.com/shorts/QEC18CSFHbk", thumbnail: "https://img.youtube.com/vi/QEC18CSFHbk/maxresdefault.jpg", type: 'video' },
+        { id: 29, title: "Quick Review 29", url: "https://youtube.com/shorts/7Wsze4ZmGGo", thumbnail: "https://img.youtube.com/vi/7Wsze4ZmGGo/maxresdefault.jpg", type: 'video' },
+        { id: 30, title: "Quick Review 30", url: "https://youtube.com/shorts/SujqFWunof0", thumbnail: "https://img.youtube.com/vi/SujqFWunof0/maxresdefault.jpg", type: 'video' },
+        { id: 31, title: "Quick Review 31", url: "https://youtu.be/93fVCbLJ0QQ", thumbnail: "https://img.youtube.com/vi/93fVCbLJ0QQ/maxresdefault.jpg", type: 'video' },
+        { id: 32, title: "Quick Review 32", url: "https://youtube.com/shorts/WXIKTvCaxkk", thumbnail: "https://img.youtube.com/vi/WXIKTvCaxkk/maxresdefault.jpg", type: 'video' },
+
+
+
     ];
 
     const photoTestimonials: PhotoTestimonial[] = [
         { id: 101, imageUrl: "/testimonials/1.png", description: "Absolutely love the product! Best investment I've made this year.", customerName: "Sarah Johnson", rating: 5 },
         { id: 102, imageUrl: "/testimonials/2.jpeg", description: "Our team productivity increased by 200% after implementing this solution.", customerName: "Michael Chen", rating: 5 },
-        { id: 103, imageUrl: "/testimonials/3.jpeg", description: "Perfect addition to our workspace. Highly recommended!", customerName: "Emily Rodriguez", rating: 4 },
-        { id: 104, imageUrl: "/testimonials/4.jpg", description: "Outstanding service and quality. Will definitely purchase again.", customerName: "David Kim", rating: 5 },
-        { id: 105, imageUrl: "/testimonials/5.jpeg", description: "Exceeded all my expectations. The quality is amazing!", customerName: "Lisa Thompson", rating: 5 },
+        { id: 103, imageUrl: "/testimonials/3.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
+        { id: 104, imageUrl: "/testimonials/4.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
+        { id: 105, imageUrl: "/testimonials/5.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
         { id: 106, imageUrl: "/testimonials/6.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
-        { id: 110, imageUrl: "/testimonials/7.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
+        { id: 107, imageUrl: "/testimonials/7.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
         { id: 108, imageUrl: "/testimonials/8.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
-        { id: 111, imageUrl: "/testimonials/10.jpg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
-        { id: 112, imageUrl: "/testimonials/11.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
-        { id: 113, imageUrl: "/testimonials/12.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
-        { id: 114, imageUrl: "/testimonials/13.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
-        { id: 115, imageUrl: "/testimonials/14.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
-        { id: 116, imageUrl: "/testimonials/15.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
-        { id: 117, imageUrl: "/testimonials/16.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
-        { id: 118, imageUrl: "/testimonials/17.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
-        { id: 119, imageUrl: "/testimonials/19.jpg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
-        { id: 120, imageUrl: "/testimonials/20.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
+        { id: 109, imageUrl: "/testimonials/9.jpg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
+        { id: 110, imageUrl: "/testimonials/10.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
+        { id: 111, imageUrl: "/testimonials/11.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
+        { id: 112, imageUrl: "/testimonials/12.png", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
+        { id: 113, imageUrl: "/testimonials/13.png", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
+        { id: 114, imageUrl: "/testimonials/14.jpg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
+        { id: 115, imageUrl: "/testimonials/15.jpg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
     ];
-
     const [selectedVideo, setSelectedVideo] = useState<Testimonial | null>(null);
     const [selectedPhoto, setSelectedPhoto] = useState<PhotoTestimonial | null>(null);
     const [currentVideoIndex, setCurrentVideoIndex] = useState<number>(0);
