@@ -128,7 +128,11 @@ const PastLifeRegression = () => {
                 </ul>
             )
             ,
+<<<<<<< HEAD
             imageSrc: "/coaching/deft.jpg",
+=======
+            imageSrc: "/regression/past.png",
+>>>>>>> f63968fe885dd4af47d638a61ad2c21c9e00119a
             imageAlt: "Past Life Regression",
 
         },
@@ -148,7 +152,11 @@ const PastLifeRegression = () => {
                     ))}
                 </ul>
             ),
+<<<<<<< HEAD
             imageSrc: "/coaching/womb.jpg",
+=======
+            imageSrc: "/regression/womb.png",
+>>>>>>> f63968fe885dd4af47d638a61ad2c21c9e00119a
             imageAlt: "Womb Regression",
             reverse: true
         },
@@ -165,7 +173,11 @@ const PastLifeRegression = () => {
                     </p>
                 </>
             ),
+<<<<<<< HEAD
             imageSrc: "/coaching/future.jpg",
+=======
+            imageSrc: "/regression/future.png",
+>>>>>>> f63968fe885dd4af47d638a61ad2c21c9e00119a
             imageAlt: "Future Life Progression",
             reverse: false
         },
@@ -198,7 +210,7 @@ const PastLifeRegression = () => {
                     <div className="w-16 h-px mx-auto mb-8 bg-amber-500" />
 
                     <p className="text-stone-400 max-w-xl text-lg font-light leading-relaxed">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit atque at itaque animi corporis inventore quidem earum iste officia incidunt ratione a alias obcaecati excepturi, assumenda cum voluptate odit saepe culpa praesentium. Porro accusamus dolores, ex praesentium ab adipisci placeat facere? Perferendis iste cum amet omnis assumenda itaque reiciendis natus!
+
                     </p>
                 </div>
             </div>

@@ -128,7 +128,7 @@ const LifeCoaching = () => {
                 </ul>
             )
             ,
-            imageSrc: "/coaching/det.jpg",
+            imageSrc: "/coaching/det.png",
             imageAlt: "Detoxing & cleansing Past",
 
         },
@@ -148,7 +148,7 @@ const LifeCoaching = () => {
                     ))}
                 </ul>
             ),
-            imageSrc: "/coaching/forgiving.jpg",
+            imageSrc: "/coaching/forgiving.png",
             imageAlt: "Business etiquette illustration",
             reverse: true
         },
@@ -165,7 +165,7 @@ const LifeCoaching = () => {
                     </p>
                 </>
             ),
-            imageSrc: "/coaching/understand.jpg",
+            imageSrc: "/coaching/undersatnd.png",
             imageAlt: "Understanding Life",
             reverse: false
         },
@@ -184,7 +184,7 @@ const LifeCoaching = () => {
                     </p>
                 </>
             ),
-            imageSrc: "/coaching/emotion.jpg",
+            imageSrc: "/coaching/emotion.png",
             imageAlt: "Emotional wellness",
             reverse: true
         },
@@ -201,7 +201,7 @@ const LifeCoaching = () => {
                     </p>
                 </>
             ),
-            imageSrc: "/coaching/balance.jpg",
+            imageSrc: "/coaching/balance.png",
             imageAlt: "Balancing Energies & energy routine",
             reverse: false
         },
@@ -245,7 +245,11 @@ const LifeCoaching = () => {
                     </p>
                 </>
             ),
+<<<<<<< HEAD
             imageSrc: "/coaching/rel2easing.jpg",
+=======
+            imageSrc: "/coaching/healing.png",
+>>>>>>> f63968fe885dd4af47d638a61ad2c21c9e00119a
             imageAlt: "Healing Phobias",
             reverse: false
         },
@@ -264,7 +268,11 @@ const LifeCoaching = () => {
                     </p>
                 </>
             ),
+<<<<<<< HEAD
             imageSrc: "/coaching/healing.jpg",
+=======
+            imageSrc: "/coaching/healing2.png",
+>>>>>>> f63968fe885dd4af47d638a61ad2c21c9e00119a
             imageAlt: "Healing Motion Sickness or Sea Sickness",
             reverse: true
         },
@@ -283,7 +291,11 @@ const LifeCoaching = () => {
                     </p>
                 </>
             ),
+<<<<<<< HEAD
             imageSrc: "/coaching/heal1ing.jpg",
+=======
+            imageSrc: "/coaching/innerChild.png",
+>>>>>>> f63968fe885dd4af47d638a61ad2c21c9e00119a
             imageAlt: "Inner Child Healing",
             reverse: false
         },
@@ -300,7 +312,11 @@ const LifeCoaching = () => {
                         In this session, we work gently with the subconscious mind to release the emotional intensity connected to these traumatic experiences. Through guided techniques and a safe healing process, the person is able to process and let go of the pain associated with these memories. As the emotional charge is released, the individual can completely heal from the painful memories, allowing them to move forward in life with greater calmness, confidence, and inner peace.                    </p>
                 </>
             ),
+<<<<<<< HEAD
             imageSrc: "/coaching/heal1ing.jpg",
+=======
+            imageSrc: "/coaching/ptsd.png",
+>>>>>>> f63968fe885dd4af47d638a61ad2c21c9e00119a
             imageAlt: "Healing PTSD",
             reverse: true
         }, {
@@ -317,7 +333,11 @@ const LifeCoaching = () => {
                     </p>
                 </>
             ),
+<<<<<<< HEAD
             imageSrc: "/coaching/goal.jpg",
+=======
+            imageSrc: "/coaching/goal.png",
+>>>>>>> f63968fe885dd4af47d638a61ad2c21c9e00119a
             imageAlt: "Goal Setting and Attaining",
             reverse: false
         },
@@ -349,9 +369,7 @@ const LifeCoaching = () => {
 
                     <div className="w-16 h-px mx-auto mb-8 bg-amber-500" />
 
-                    <p className="text-stone-400 max-w-xl text-lg font-light leading-relaxed">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit atque at itaque animi corporis inventore quidem earum iste officia incidunt ratione a alias obcaecati excepturi, assumenda cum voluptate odit saepe culpa praesentium. Porro accusamus dolores, ex praesentium ab adipisci placeat facere? Perferendis iste cum amet omnis assumenda itaque reiciendis natus!
-                    </p>
+
                 </div>
             </div>
 
