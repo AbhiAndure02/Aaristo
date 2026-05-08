@@ -111,6 +111,13 @@ const Testimonials: React.FC = () => {
         { id: 113, imageUrl: "/testimonials/13.png", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
         { id: 114, imageUrl: "/testimonials/14.jpg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
         { id: 115, imageUrl: "/testimonials/15.jpg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
+        { id: 116, imageUrl: "/testimonials/16.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
+        { id: 117, imageUrl: "/testimonials/17.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
+        { id: 118, imageUrl: "/testimonials/18.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
+        { id: 119, imageUrl: "/testimonials/19.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
+        { id: 120, imageUrl: "/testimonials/20.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
+        { id: 121, imageUrl: "/testimonials/21.jpeg", description: "Transformative experience. Can't imagine working without it now.", customerName: "Robert Martinez", rating: 5 },
+
     ];
     const [selectedVideo, setSelectedVideo] = useState<Testimonial | null>(null);
     const [selectedPhoto, setSelectedPhoto] = useState<PhotoTestimonial | null>(null);
